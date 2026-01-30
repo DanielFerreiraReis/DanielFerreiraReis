@@ -36,5 +36,12 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add profile/*.svg
+<<<<<<< HEAD
+=======
+          git commit -m "Update GitHub stats" || exit 0
+          git push
+          git config user.email "github-actions@users.noreply.github.com"
+          git add stats.svg top-langs.svg
+>>>>>>> 63aad827b80f2b7b8e41755cb13882c58935c8d1
           git commit -m "Update GitHub stats" || exit 0
           git push
