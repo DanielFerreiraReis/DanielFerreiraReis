@@ -6,20 +6,11 @@ Sou estudante de Ciência da Computação, movido pela curiosidade e pela vontad
 - 🪄 Tucuruí-PA
 - 👑 Back-end Dart
 
-<div>
-  <img
-    src="profile/stats.svg"
-    alt="GitHub Stats"
-    height="170"
-    style="margin-right: 12px;"
-  />
-  <img
-    src="profile/top-langs.svg"
-    alt="Top Languages"
-    height="170"
-    style="margin-left: 12px;"
-  />
+<div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: nowrap;">
+  <img src="profile/stats.svg" alt="GitHub Stats" style="max-width: 45vw; height: auto;" />
+  <img src="profile/top-langs.svg" alt="Top Languages" style="max-width: 45vw; height: auto;" />
 </div>
+
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Daniel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
