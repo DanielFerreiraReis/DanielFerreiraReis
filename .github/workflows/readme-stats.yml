@@ -2,39 +2,29 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *" # atualiza todo dia
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate Stats
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: DanielFerreiraReis
-          show_icons: true
-          theme: github_dark
-          include_all_commits: true
-          count_private: true
-          output: stats.svg
+      - name: Generate stats card
+        run: |
+          curl -o stats.svg "https://github-readme-stats.vercel.app/api?username=DanielFerreiraReis&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"
 
-      - name: Generate Top Languages
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: DanielFerreiraReis
-          layout: compact
-          theme: github_dark
-          output: top-langs.svg
+      - name: Generate top languages card
+        run: |
+          curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=DanielFerreiraReis&layout=compact&langs_count=8&theme=github_dark"
 
       - name: Commit files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add *.svg
-          git commit -m "update readme stats" || echo "no changes"
+          git add stats.svg top-langs.svg
+          git commit -m "Update GitHub stats" || echo "No changes"
           git push
