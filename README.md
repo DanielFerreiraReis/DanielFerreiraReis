@@ -7,9 +7,10 @@ Sou estudante de Ciência da Computação, movido pela curiosidade e pela vontad
 - 👑 Back-end Dart
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: nowrap;">
-  <img src="profile/stats.svg" alt="GitHub Stats" style="max-width: 45vw; height: auto;" />
-  <img src="profile/top-langs.svg" alt="Top Languages" style="max-width: 45vw; height: auto;" />
+  <img src="profile/stats.svg" alt="GitHub Stats" style="width: 45%; max-width: 600px; height: auto;" />
+  <img src="profile/top-langs.svg" alt="Top Languages" style="width: 45%; max-width: 600px; height: auto;" />
 </div>
+
 
 
 <div style="display: inline_block"><br>
