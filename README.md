@@ -6,10 +6,21 @@ Sou estudante de Ciência da Computação, movido pela curiosidade e pela vontad
 - 🪄 Tucuruí-PA
 - 👑 Back-end Dart
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: nowrap;">
-  <img src="profile/stats.svg" alt="GitHub Stats" style="width: 45%; max-width: 600px; height: auto;" />
-  <img src="profile/top-langs.svg" alt="Top Languages" style="width: 45%; max-width: 600px; height: auto;" />
+  <br/>
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 0px; flex-wrap: nowrap;">
+  <img
+    src="profile/stats.svg"
+    alt="GitHub Stats"
+    style="width: 49%; max-width: 280px; height: auto;"
+  />
+  <img
+    src="profile/top-langs.svg"
+    alt="Top Languages"
+    style="width: 49%; max-width: 280px; height: auto;"
+  />
 </div>
+
 
 
 
