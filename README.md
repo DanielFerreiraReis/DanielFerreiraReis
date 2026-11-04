@@ -8,21 +8,10 @@ Sou estudante de Engenharia de Computação, movido pela curiosidade e pela vont
 
   <br/>
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 0px; flex-wrap: nowrap;">
-  <img
-    src="profile/stats.svg"
-    alt="GitHub Stats"
-    style="width: 49%; max-width: 280px; height: auto;"
-  />
-  <img
-    src="profile/top-langs.svg"
-    alt="Top Languages"
-    style="width: 49%; max-width: 280px; height: auto;"
-  />
-</div>
-
-
-
+<p align="center">
+  <img src="profile/stats.svg" alt="GitHub Stats" width="400" height="200" />
+  <img src="profile/top-langs.svg" alt="Top Languages" width="400" height="200" />
+</p>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Daniel-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
