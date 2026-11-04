@@ -9,7 +9,7 @@ Sou estudante de Engenharia de Computação, movido pela curiosidade e pela vont
   <br/>
 
 <p align="center">
-  <img src="profile/top-langs.svg" alt="Top Languages" width="800" />
+  <img src="profile/top-langs.svg" alt="Top Languages" width="600" />
 </p>
 
 <div style="display: inline_block"><br>
