@@ -9,8 +9,8 @@ Sou estudante de Engenharia de Computação, movido pela curiosidade e pela vont
   <br/>
 
 <p align="center">
-  <img src="profile/stats.svg" alt="GitHub Stats" width="400" height="200" />
-  <img src="profile/top-langs.svg" alt="Top Languages" width="400" height="200" />
+  <img src="profile/stats.svg" alt="GitHub Stats" width="48%" />
+  <img src="profile/top-langs.svg" alt="Top Languages" width="48%" />
 </p>
 
 <div style="display: inline_block"><br>
